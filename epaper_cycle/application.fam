@@ -1,0 +1,13 @@
+# For details & more options, see documentation/AppManifests.md in firmware repo
+
+App(
+    appid="epaper_cycle",  # Must be unique
+    name="App epaper_cycle",  # Displayed in menus
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="epaper_cycle_app",
+    stack_size=4 * 1024,
+    fap_category="Examples",
+    requires=["gui", "storage"],
+    fap_icon="epaper_cycle.png",
+    fap_icon_assets="images",
+)

@@ -1,0 +1,19 @@
+# Build output. The .fap files are kept (see below) so people can install
+# without setting up a toolchain, but debug symbols are not worth versioning.
+dist/debug/
+*.elf
+*.map
+
+# ufbt working directories
+.ufbt/
+build/
+
+# Editor / tooling
+.vscode/compile_commands.json
+.idea/
+
+# Windows and macOS junk
+*:Zone.Identifier
+Thumbs.db
+desktop.ini
+.DS_Store
