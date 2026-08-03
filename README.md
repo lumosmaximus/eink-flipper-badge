@@ -10,7 +10,10 @@ display driver written from the datasheet up. Photos are captured, dithered, and
 converted on a phone, sent over BLE, and painted onto e-paper that holds the
 image with the panel unpowered. No laptop anywhere in the daily loop.**
 
-![The badge](docs/hero.jpg)
+![The badge cycling to a new image, sped up 4x](docs/demo.gif)
+
+*Auto-cycle moving to the next image. Sped up 4x: a real refresh takes about 18
+to 20 seconds.*
 
 ## The idea
 
@@ -237,13 +240,10 @@ look far better than photographs forced through it.
 ## Result
 
 A six-color refresh is not subtle. The panel flickers through intermediate states
-for 15 to 30 seconds while the pigments move, then settles into the final image
-and holds it with the power off.
+for 15 to 30 seconds while the pigments move, then settles and holds the image
+with the power off.
 
-![Auto-cycle changing images, sped up 4x](docs/demo.gif)
-
-*Auto-cycle moving between two images, at 4x speed. A real refresh runs about 18
-to 20 seconds.*
+![The finished badge on its lanyard](docs/hero.jpg)
 
 TODO: how it behaves in practice, battery life over a day of cycling, and what
 you would change next.
